@@ -25,7 +25,7 @@ lazy val root = (project in file("."))
       "ch.qos.logback"        % "logback-classic"      % LogbackVersion,
       "org.tpolecat"          %% "doobie-core"        % DoobieVersion,
       "com.github.pureconfig" %% "pureconfig"          % PureConfigVersion,
-      "com.h2database"        % "h2"                   % H2Version % Test,
+      "com.h2database"        % "h2"                   % H2Version,
       "org.scalatest"         %% "scalatest"           % ScalaTestVersion % "it, test",
       "org.http4s"            %% "http4s-blaze-client" % Http4sVersion % "it,test"
     ),
